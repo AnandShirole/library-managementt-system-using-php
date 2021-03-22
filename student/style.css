@@ -1,0 +1,103 @@
+/* this part of css is for home page of library management system where we manage all our sectionss*/
+
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: century gothic;
+    box-sizing: border-box;
+}
+/*--------------------------------main code  index______________________________*/
+head{
+    font-size:medium;
+}
+body{
+    height: 110vh;
+    width:100%;
+    background-image: url("images/1.jpg");
+    background-size:cover;                     
+    background-repeat:no-repeat;
+    background-position:center; 
+}
+
+.logo{
+    float: left;
+    padding-left: 20px;
+}
+.logo img{
+    padding-left: 100px;
+    padding-top: 15px;
+    height:100px;
+    width:auto;
+}
+
+li a {
+    color:white;
+    text-decoration: none;
+    padding:5px 20px;
+    border:1px solid white
+}
+nav
+{
+    float: right;
+    word-spacing: 30px;
+    
+}
+
+nav li{
+    display: inline-block;
+    line-height: 90px;
+}
+nav ul li a:hover{
+    color:red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: yellow;
+}
+
+.box
+{
+    width:25%;
+    background-color: #030002;
+    margin-top: 16em;
+    margin-left:28em;
+    opacity: 0.9;
+    color:white;
+    padding:20px;
+    position:absolute;
+    height:12%;
+    background: transparent;
+}
+
+
+.info{
+    position: absolute;
+    margin-top: 30em;
+    left:50em;
+    color: white;
+    font-size: medium;
+    letter-spacing:0.2em;
+    line-height:2em;
+    font-family: times;
+    box-sizing: border-box;
+    opacity:0.9;
+}
+
+.info p {
+    padding:10px;
+    background: black;
+}
+
+.quote{
+    position: absolute;
+    margin-top: 23em;
+    left:0em;
+    font-size: medium;
+    letter-spacing:0.2em;
+    line-height:2em;
+    font-family: arial;
+    box-sizing: border-box;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+

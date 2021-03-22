@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: century gothic;
+    box-sizing: border-box;
+}
+
+
+li a {
+    color:white;
+    text-decoration: none;
+    padding:5px 20px;
+    border:1px solid white
+}
+
+nav
+{
+    float: right;
+    word-spacing: 30px;
+    
+}
+
+nav li{
+    display: inline-block;
+    line-height: 90px;
+}
+nav ul li a:hover{
+    color:red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: yellow;
+}
+
+
+
+body{
+    height: 120vh;
+    margin:0px;
+    background-image:linear-gradient(to bottom right,rgb(0,0,0,0.6),rgb(0,0,0,0.6)) , url("images/reg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+}
+.logo{
+    float: left;
+    padding-left: 20px;
+}
+li a {
+    color:white;
+    text-decoration: none;
+    padding:5px 20px;
+    border:1px solid white
+}
+
+
+.infut-field{
+    width: 80%;
+    padding: 10px 10px;
+    margin: 0px 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    color:black;
+    font-size: 15px;
+     
+}
+h1{
+    font-size: medium;
+    color:black;
+    position:absolute;
+    overflow:hidden;
+    padding-left:20%;
+    text-transform: uppercase;
+    margin-top:5%;
+}
+
+.btn-info{
+    margin-top:10%;
+    margin-left:33%;
+    position:center;
+    height:40px;
+    width:30%;
+    margin-bottom: 10%;
+}
